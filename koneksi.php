@@ -10,9 +10,9 @@ session_start();
 date_default_timezone_set('Asia/Jakarta');
 
 $hostname 	= 'localhost';
-$username 	= '';
-$password 	= '';
-$dbname 	= '';
+$username 	= 'wrtpjjys_pulsa';
+$password 	= 'taebadak007';
+$dbname 	= 'wrtpjjys_pulsa';
 $conn = mysqli_connect( $hostname , $username , $password , $dbname );
 mysqli_query($conn, "SET NAMES utf8;");
 mysqli_query($conn, "SET CHARACTER_SET utf8;");
